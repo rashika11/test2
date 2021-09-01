@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Croossbrowser Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CrossBrowser Test1(failed)">
+    <parameter name="Passwordvalue" value="Australia110!"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="Usernamevalue" value="rashika.z@outlook.com"/>
+    <classes>
+      <class name="module5.crossBroswer">
+        <methods>
+          <include name="clickSignInPage"/>
+          <include name="shuttingDown"/>
+          <include name="logIn" invocation-numbers="0"/>
+          <include name="browserSetup"/>
+          <include name="logOut"/>
+          <include name="URL"/>
+        </methods>
+      </class> <!-- module5.crossBroswer -->
+    </classes>
+  </test> <!-- CrossBrowser Test1(failed) -->
+  <test thread-count="5" name="CrossBrowser Test2(failed)">
+    <parameter name="Passwordvalue" value="Australia110!"/>
+    <parameter name="browserName" value="Firefox"/>
+    <parameter name="Usernamevalue" value="rashika.z@outlook.com"/>
+    <classes>
+      <class name="module5.crossBroswer">
+        <methods>
+          <include name="clickSignInPage"/>
+          <include name="shuttingDown"/>
+          <include name="logIn" invocation-numbers="0"/>
+          <include name="browserSetup"/>
+          <include name="logOut"/>
+          <include name="URL"/>
+        </methods>
+      </class> <!-- module5.crossBroswer -->
+    </classes>
+  </test> <!-- CrossBrowser Test2(failed) -->
+</suite> <!-- Failed suite [Croossbrowser Suite] -->
